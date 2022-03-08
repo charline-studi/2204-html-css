@@ -9,9 +9,9 @@ Durant les lives théoriques nous allons abordés des notions des différents la
 Et les lives "Projet" prendront le relai et permettront de mettre en application les notions abordées dans un exercice "très concret" : la reproduction du site Alan.com
 
 ## Pré-requis
-• Pas de niveau d'entrée
-• Utiliser un éditeur de texte, celui avec lequel vous êtes le plus à l'aise (VS Code, Sublime Text, Atom, etc...)
-• Avoir un navigateur récent pour visualiser le rendu de notre code (Firefox, Google Chrome, Edge, Safari, Opera)
+- Pas de niveau d'entrée  
+- Utiliser un éditeur de texte, celui avec lequel vous êtes le plus à l'aise (VS Code, Sublime Text, Atom, etc...)  
+- Avoir un navigateur récent pour visualiser le rendu de notre code (Firefox, Google Chrome, Edge, Safari, Opera)  
 
 ## Planning
 
@@ -32,7 +32,7 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 
 ## Ressources
 
-[🚦 Tester mon code](https://validator.w3.org/)
-[📖 Documentation en français](https://developer.mozilla.org/fr/)
-[📖 Documentation en anglais](https://www.w3schools.com/html/)
-[🤯 Des sites qui changent](https://www.awwwards.com/)
+- [🚦 Tester mon code](https://validator.w3.org/)  
+- [📖 Documentation en français](https://developer.mozilla.org/fr/)  
+- [📖 Documentation en anglais](https://www.w3schools.com/html/)  
+- [🤯 Des sites qui changent](https://www.awwwards.com/)  
