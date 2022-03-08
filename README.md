@@ -1,16 +1,38 @@
 # html-css
 
+## Présentation
+👋 Je m'appelle Charline, je suis développeuse full stack mais spécialisée front-end. 
+
+## Cours
+Ce cours est composé d'une série de 10 lives, avec une alternance entre des live "Théoriques" et des lives "Projets".
+Durant les lives théoriques nous allons abordés des notions des différents languages, et les tester via des "petits bouts" de code, des exemples.
+Et les lives "Projet" prendront le relai et permettront de mettre en application les notions abordées dans un exercice "très concret" : la reproduction du site Alan.com
+
+## Pré-requis
+• Pas de niveau d'entrée
+• Utiliser un éditeur de texte, celui avec lequel vous êtes le plus à l'aise (VS Code, Sublime Text, Atom, etc...)
+• Avoir un navigateur récent pour visualiser le rendu de notre code (Firefox, Google Chrome, Edge, Safari, Opera)
+
 ## Planning
 
-| Numéro | Date       | Heure     | Type      | Titre                                                        |
-|--------|------------|-----------|-----------|--------------------------------------------------------------|
-| 01     | 02/03/2022 | 10h - 11h | Théorique | Découverte du HTML 🙂                                         |
-| 02     | 03/03/2022 | 10h - 11h | Théorique | Découverte du CSS 🙃                                          |
-| 03     | 08/03/2022 | 10h - 11h | Projet    | Lancement du projet "copycat" Alan 🙌                         |
-| 04     | 09/03/2022 | 10h - 11h | Théorique | La techno moderne CSS qui facilite l'intégration : flexbox 🚀 |
-| 05     | 10/03/2022 | 10h - 11h | Théorique | Comment positionner des éléments sans flexbox 🤔              |
-| 06     | 15/03/2022 | 10h - 11h | Projet    | Suite de intégration du projet Alan 🖌                        |
-| 07     | 16/03/2022 | 10h - 11h | Théorique | Nouvelle étape CSS : le responsive 🧐                         |
-| 08     | 22/03/2022 | 16h - 17h | Projet    | Responsive de notre projet Alan 📱                            |
-| 09     | 23/03/2022 | 10h - 11h | Théorique | Dernière étape CSS, les notions avancées 💃                   |
-| 10     | 24/03/2022 | 10h - 11h | Projet    | Finalisation de notre intégration 🥳                          |
+| Numéro | Date       | Heure     | Type      | Titre                                                        | Replay                                                |
+|--------|------------|-----------|-----------|--------------------------------------------------------------|-------------------------------------------------------|
+| 00     | 02/03/2022 | 10h - 11h | Théorique | Introduction au HTML (et vive les problèmes techniques 😅)    | https://app.studi.fr/#/dashboard/events/29409/details |
+| 01     | 03/03/2022 | 10h - 11h | Théorique | Découverte du HTML 🙂                                         | https://app.studi.fr/#/dashboard/events/29410/details |
+| 02     | 08/03/2022 | 10h - 11h | Projet    | Lancement du projet "copycat" Alan 🙌                         | https://app.studi.fr/#/dashboard/events/29411/details |
+| 03     | 09/03/2022 | 10h - 11h | Théorique | Découverte du CSS 🙃                                          | pas encore disponible                                 |
+| 04     | 10/03/2022 | 10h - 11h | Théorique | La techno moderne CSS qui facilite l'intégration : flexbox 🚀 | pas encore disponible                                 |
+| 05     | 15/03/2022 | 10h - 11h | Théorique | Comment positionner des éléments sans flexbox 🤔              | pas encore disponible                                 |
+| 06     | 16/03/2022 | 10h - 11h | Projet    | Suite de intégration du projet Alan 🖌                        | pas encore disponible                                 |
+| 07     | 22/03/2022 | 16h - 17h | Théorique | Nouvelle étape CSS : le responsive 🧐                         | pas encore disponible                                 |
+| 08     | 23/03/2022 | 10h - 11h | Projet    | Responsive de notre projet Alan 📱                            | pas encore disponible                                 |
+| 09     | 24/03/2022 | 10h - 11h | Théorique | Dernière étape CSS, les notions avancées 💃                   | pas encore disponible                                 |
+| 10     | 29/03/2022 | 10h - 11h | Projet    | Finalisation de notre intégration 🥳                          | pas encore disponible                                 |
+
+
+## Ressources
+
+[🚦 Tester mon code](https://validator.w3.org/)
+[📖 Documentation en français](https://developer.mozilla.org/fr/)
+[📖 Documentation en anglais](https://www.w3schools.com/html/)
+[🤯 Des sites qui changent](https://www.awwwards.com/)
