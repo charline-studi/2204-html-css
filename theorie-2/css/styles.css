@@ -1,0 +1,20 @@
+body {
+    background-color: grey;
+}
+
+.mon-para {
+    text-decoration: underline;
+    color: white;
+}
+
+.green {
+    color: green;
+}
+
+#ma-premiere-div {
+    border: solid 2px black;
+}
+
+#ma-seconde-div {
+    border: dotted 10px white;
+}
