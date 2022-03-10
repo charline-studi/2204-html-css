@@ -21,7 +21,7 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 | 01     | 03/03/2022 | 10h - 11h | Théorique | Découverte du HTML 🙂                                         | https://app.studi.fr/#/dashboard/events/29410/details |
 | 02     | 08/03/2022 | 10h - 11h | Projet    | Lancement du projet "copycat" Alan 🙌                         | https://app.studi.fr/#/dashboard/events/29411/details |
 | 03     | 09/03/2022 | 10h - 11h | Théorique | Découverte du CSS 🙃                                          | https://app.studi.fr/#/dashboard/events/29469/replay                                 |
-| 04     | 10/03/2022 | 10h - 11h | Théorique | La techno moderne CSS qui facilite l'intégration : flexbox 🚀 | pas encore disponible                                 |
+| 04     | 10/03/2022 | 10h - 11h | Théorique | La techno moderne CSS qui facilite l'intégration : flexbox 🚀 | https://app.studi.fr/#/dashboard/events/29470/replay                                 |
 | 05     | 15/03/2022 | 10h - 11h | Théorique | Comment positionner des éléments sans flexbox 🤔              | pas encore disponible                                 |
 | 06     | 16/03/2022 | 10h - 11h | Projet    | Suite de intégration du projet Alan 🖌                        | pas encore disponible                                 |
 | 07     | 22/03/2022 | 16h - 17h | Théorique | Nouvelle étape CSS : le responsive 🧐                         | pas encore disponible                                 |
