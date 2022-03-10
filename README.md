@@ -36,4 +36,4 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 - [📖 Documentation en français](https://developer.mozilla.org/fr/)  
 - [📖 Documentation en anglais](https://www.w3schools.com/html/)  
 - [🤯 Des sites qui changent](https://www.awwwards.com/)  
-- [🎮 Jeu CSS](https://flukeout.github.io/)
+- [🎮 Jeu CSS : sur les sélecteurs](https://flukeout.github.io/)
