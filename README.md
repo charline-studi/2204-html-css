@@ -38,3 +38,5 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 - [🤯 Des sites qui changent](https://www.awwwards.com/)  
 - [🎮 Jeu CSS : sur les sélecteurs](https://flukeout.github.io/)
 - [📖 Copier / Coller des emojis](https://www.emojicopy.com/)
+- [📖 Guide visuel pour apprendre flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [🎮 Jeu CSS : sur flexbox](https://flexboxfroggy.com/#fr)
