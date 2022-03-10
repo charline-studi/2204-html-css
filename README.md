@@ -37,3 +37,4 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 - [📖 Documentation en anglais](https://www.w3schools.com/html/)  
 - [🤯 Des sites qui changent](https://www.awwwards.com/)  
 - [🎮 Jeu CSS : sur les sélecteurs](https://flukeout.github.io/)
+- [📖 Copier / Coller des emojis](https://www.emojicopy.com/)
