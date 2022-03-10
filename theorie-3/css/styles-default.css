@@ -1,0 +1,28 @@
+body {
+    background-color: grey;
+}
+
+.ma-div {
+    background-color: tomato;
+    display: block;
+    height: 500px;
+}
+
+.mon-para {
+    background-color: yellow;
+    display: inline;
+}
+
+.mon-span {
+    background-color: black;
+    color: white;
+    display: inline;
+    height: 200px;
+}
+
+.mon-image {
+    border: solid 20px purple;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}

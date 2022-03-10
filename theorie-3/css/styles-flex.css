@@ -1,0 +1,17 @@
+.mon-parent {
+    border: solid 2px black;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mon-para {
+    background-color: yellow;
+    width: 300px;
+}
+
+.mon-image {
+    width: 200px;
+}
