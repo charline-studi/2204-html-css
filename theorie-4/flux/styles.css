@@ -1,0 +1,15 @@
+div {
+    background-color: tomato;
+}
+
+p {
+    border: solid 2px black; 
+}
+
+.flux {
+    width: 100%;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
