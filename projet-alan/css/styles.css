@@ -1,0 +1,38 @@
+body {
+    background-color: grey;
+}
+
+/*
+*
+Header
+*
+*/
+
+.header { 
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header__image {
+    width: 100px;
+}
+
+.header__link {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header__link--blue {
+    background-color: #2e94fa;
+    color: #ffffff;
+}
+
+.header__link--grey {
+    background-color: #f4f4f4;
+    color: #2e94fa;
+}
