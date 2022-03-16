@@ -23,7 +23,7 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 | 03     | 09/03/2022 | 10h - 11h | Théorique | Découverte du CSS 🙃                                          | https://app.studi.fr/#/dashboard/events/29469/replay                                 |
 | 04     | 10/03/2022 | 10h - 11h | Théorique | La techno moderne CSS qui facilite l'intégration : flexbox 🚀 | https://app.studi.fr/#/dashboard/events/29470/replay                                 |
 | 05     | 15/03/2022 | 10h - 11h | Théorique | Comment positionner des éléments sans flexbox 🤔              | https://app.studi.fr/#/dashboard/events/29471/replay                                |
-| 06     | 16/03/2022 | 10h - 11h | Projet    | Suite de intégration du projet Alan 🖌                        | pas encore disponible                                 |
+| 06     | 16/03/2022 | 10h - 11h | Projet    | Suite de intégration du projet Alan 🖌                        | https://app.studi.fr/#/dashboard/events/29472/details                                 |
 | 07     | 22/03/2022 | 16h - 17h | Théorique | Nouvelle étape CSS : le responsive 🧐                         | pas encore disponible                                 |
 | 08     | 23/03/2022 | 10h - 11h | Projet    | Responsive de notre projet Alan 📱                            | pas encore disponible                                 |
 | 09     | 24/03/2022 | 10h - 11h | Théorique | Dernière étape CSS, les notions avancées 💃                   | pas encore disponible                                 |
@@ -33,11 +33,13 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 ## Ressources
 
 - [🚦 Valider mon code](https://validator.w3.org/)  
-- [📖 Documentation en français](https://developer.mozilla.org/fr/)  
-- [📖 Documentation en anglais](https://www.w3schools.com/html/)  
+- [📖 Documentation html - en français](https://developer.mozilla.org/fr/)  
+- [📖 Documentation html - en anglais](https://www.w3schools.com/html/)  
 - [🤯 Des sites qui changent](https://www.awwwards.com/)  
 - [🎮 Jeu CSS : sur les sélecteurs](https://flukeout.github.io/)
 - [📖 Copier / Coller des emojis](https://www.emojicopy.com/)
 - [📖 Guide visuel pour apprendre flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [🎮 Jeu CSS : sur flexbox](https://flexboxfroggy.com/#fr)
 - [💡 Compatibilité navigateur des propriétés CSS](https://caniuse.com/)
+- [🗂 Google fonts](https://fonts.google.com/)
+- [📖 BEM : Convention de nommage](https://www.alticreation.com/bem-pour-le-css/)
