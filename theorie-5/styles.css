@@ -1,0 +1,89 @@
+/*
+Ma première section.
+- Changement de couleur de fond
+- Affichage ou non d'un texte
+*/
+
+.desktop-only {
+    display: none;
+    background-color: bisque;
+}
+
+.mobile-only {
+    display: none;
+    background-color: teal;
+}
+
+body {
+    background-color: tomato;
+}
+
+@media screen and (max-width: 450px) {
+
+    body {
+        background-color: black;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    body {
+        background-color: purple;
+    }
+
+    .desktop-only {
+        display: block;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    
+    body {
+        border: solid 2px black
+    }
+}
+
+@media screen and ((max-width: 800px) or (max-height: 600px)) {
+
+    body {
+        background-color: yellow;
+    }
+}
+
+
+
+/*
+Ma seconde section.
+- Changement d'affichage
+*/
+
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+}
+
+@media screen and (max-width: 670px){
+    
+    .section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .image {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
