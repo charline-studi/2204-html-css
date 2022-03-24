@@ -1,0 +1,112 @@
+section {
+    margin-bottom: 50px;
+}
+
+/*
+Section paragraphes
+*/
+
+.paragraphes p:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.paragraphes p:first-child {
+    color: green
+}
+
+.paragraphes p:last-child {
+    color: purple;
+    border-bottom: solid 2px red
+}
+
+.paragraphes p:nth-child(2) {
+    background-color: grey;
+}
+
+.paragraphes .ma-div {
+    border: solid 2px black;
+}
+
+/* Sélectionner un élément html en fonction de son parent*/
+.paragraphes .ma-div p {
+    text-decoration: underline;
+}
+
+/* Sélectionner un élément html qui vient après */
+.paragraphes .ma-div + .mon-para {
+    background-color: yellow;
+}
+
+/* Sélectionner plusieurs éléments */
+.paragraphes .ma-div,.paragraphes .mon-para,.paragraphes p,.paragraphes {
+    border: dotted 1px blue
+}
+
+/* Sélectionner un élément html qui a la classe ... */
+section.paragraphes {
+    background-color: lightgray;
+}
+
+
+/*
+Section numbers
+*/
+
+section.numbers {
+    background-color: bisque;
+}
+
+.numbers p:nth-child(4n - 1) {
+    color: red
+}
+
+.numbers p:nth-child(even) {
+    color: purple
+}
+
+.numbers p:nth-child(1) {
+    text-decoration: underline;
+}
+
+/*
+Section quote
+*/
+
+.quote blockquote {
+    position: relative;
+}
+
+.quote blockquote::before {
+    content: '«';
+    color: blue;
+    font-size: 100px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-50%) translateY(-50%) rotate(15deg);
+}
+
+.quote blockquote::after {
+    content: '»';
+    color: blue;
+}
+
+/*
+Section list
+*/
+
+.list ul {
+    list-style: none;
+}
+
+.list li {
+    background-color: lightcyan;
+    transition: background-color 0.5s;
+}
+
+.list li:hover {
+    background-color: red;
+}
+
