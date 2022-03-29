@@ -11,6 +11,7 @@ Variables
 
 body {
     background-color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*
@@ -40,7 +41,6 @@ Header
     padding: 10px 20px;
     border-radius: 10px;
     font-weight: 600;
-    font-family: 'Raleway', sans-serif;
 }
 
 .header__link--blue {
@@ -101,6 +101,57 @@ Cover
     object-position: center;
     z-index: 0;
 }
+
+.cover__container-texts, .cover__container-images {
+    width: 50%;
+}
+
+.cover__container-texts {
+    padding-right: 120px;
+}
+
+.cover__title {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.cover__introduction {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 150px;
+}
+
+.cover__container-images {
+    position: relative;
+}
+
+.cover__image {
+    position: absolute;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.cover__image:first-child {
+    bottom: 0;
+    right: 0;
+    width: 95%;
+    height: auto;
+}
+
+.cover__image:first-child:hover {
+    transform-origin: bottom right;
+    transform: rotate(5deg) scale(1.1) translateX(50px);
+}
+
+.cover__image:last-child {
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 85%;
+}
+
 
 /* 800px = tablette portrait */
 @media screen and (max-width: 800px) {
