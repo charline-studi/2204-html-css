@@ -1,92 +1,102 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <link rel="icon" type="image/png" href="images/favicon.png" />
-        <title>Copycat - Alan</title>
 
-        <!-- Start : Import typo google font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;800&display=swap" rel="stylesheet"> 
-        <!-- End : Import typo google font -->
+<head>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <title>Copycat - Alan</title>
 
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
+    <!-- Start : Import typo google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- End : Import typo google font -->
 
-        <!-- Start : Menu -->
-        <header class="header">
-            <img class="header__image" src="images/logo.png" alt="Logo Alan" />
-            <nav class="header__nav">
-                <a class="header__link header__link--blue" href="#">Découvrir les offres</a>
-                <a class="header__link header__link--grey" href="#">Me connecter</a>
-            </nav>
-        </header>
-        <!-- End : Menu -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 
-        <main>
+<body>
 
-            <!-- Start : First section -->
-            <section class="cover">
-                <div class="cover__flux flux">
-                    <div class="cover__container-texts">
-                        <h1 class="cover__title">L’assurance santé qui fait simple.</h1>
-                        <p class="cover__introduction">14 000 entreprises de toutes tailles, des start-ups aux grandes entreprises, et des milliers d’indépendants font confiance à Alan pour leur protection santé.</p>
-                    </div>
-                    <div class="cover__container-images">
-                        <img class="cover__image" src="images/homepage-dashboard.png" alt="Capture d'écran du tableau de bord version ordinateur" />
-                        <img class="cover__image" src="images/homepage-mobile.png" alt="Capture d'écran du tableau de bord version mobile" />
-                    </div>
+    <!-- Start : Menu -->
+    <header class="header">
+        <img class="header__image" src="images/logo.png" alt="Logo Alan" />
+        <nav class="header__nav">
+            <a class="header__link header__link--blue" href="#">Découvrir les offres</a>
+            <a class="header__link header__link--grey" href="#">Me connecter</a>
+        </nav>
+    </header>
+    <!-- End : Menu -->
+
+    <main>
+
+        <!-- Start : First section -->
+        <section class="cover">
+            <div class="cover__flux flux">
+                <div class="cover__container-texts">
+                    <h1 class="cover__title">L’assurance santé qui fait simple.</h1>
+                    <p class="cover__introduction">14 000 entreprises de toutes tailles, des start-ups aux grandes entreprises, et des milliers d’indépendants font confiance à Alan pour leur protection santé.</p>
+                    <img class="cover__marmot" src="images/marmot.png" alt="">
                 </div>
-                <video class="cover__video" autoplay loop muted>
+                <div class="cover__container-images">
+                    <img class="cover__image" src="images/homepage-dashboard.png" alt="Capture d'écran du tableau de bord version ordinateur" />
+                    <img class="cover__image" src="images/homepage-mobile.png" alt="Capture d'écran du tableau de bord version mobile" />
+                </div>
+            </div>
+            <video class="cover__video" autoplay loop muted>
                     <source src="videos/loop-video.mp4" type="video/mp4">
                 </video>
-            </section>
-            <!-- End : First section -->
+        </section>
+        <!-- End : First section -->
 
-            <!-- Start : Second section -->
-            <section class="offers flux">
-                <h2>Nos offres pensées <strong>pour vous, avec vous</strong></h2>
-                <p>
-                    👋 Salarié(e) d'une entreprise qui a rejoint Alan ? 
-                    <a href="#">Découvrez comment vous inscrire</a>
-                </p>
+        <!-- Start : Second section -->
+        <section class="offers flux">
 
-                <ul>
-                    <li>
-                        <div>
-                            <img src="images/emoji-rocket.svg" alt="Emoji fusée">
-                            <h3>Startups & PME</h3>
-                        </div>
-                        <p>Gagnez un temps fou sur la gestion de votre assurance santé et prenez soin de vos salariés.</p>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="images/emoji-building.svg" alt="Emoji entreprise">
-                            <h3>Grandes entreprises</h3>
-                        </div>
-                        <p>Avec Alan Enterprise, profitez d’une offre santé sur-mesure, au plus proche des besoins de vos collaborateurs.</p>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="images/emoji-restaurant.svg" alt="Emoji restaurant">
-                            <h3>Hôtels & Restaurants</h3>
-                        </div>
-                        <p>Simplifiez-vous la gestion de l’assurance santé pour vos équipes au quotidien et respectez toutes vos obligations CHR.</p>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="images/emoji-painter.svg" alt="Emoji indépendants">
-                            <h3>Indépendants</h3>
-                        </div>
-                        <p>Oubliez la paperasse et profitez d’une couverture santé complète pour un reste à charge minimal.</p>
-                    </li>
-                </ul>
-            </section>
-            <!-- End : Second section -->
+            <h2 class="offers__title">Nos offres pensées <strong>pour vous, avec vous</strong></h2>
+            <p class="offers__introduction">
+                <span>👋</span> Salarié(e) d'une entreprise qui a rejoint Alan ?
+                <a href="#">Découvrez comment vous inscrire</a>
+            </p>
 
-        </main>
+            <ul class="offers__list">
 
-    </body>
+                <li class="card-offer">
+                    <div class="card-offer__container-title">
+                        <img class="card-offer__icon" src="images/emoji-rocket.svg" alt="Emoji fusée">
+                        <h3 class="card-offer__title">Startups & PME</h3>
+                    </div>
+                    <p class="card-offer__description">Gagnez un temps fou sur la gestion de votre assurance santé et prenez soin de vos salariés.</p>
+                </li>
+
+                <li class="card-offer">
+                    <div class="card-offer__container-title">
+                        <img class="card-offer__icon" src="images/emoji-building.svg" alt="Emoji entreprise">
+                        <h3 class="card-offer__title">Grandes entreprises</h3>
+                    </div>
+                    <p class="card-offer__description">Avec Alan Enterprise, profitez d’une offre santé sur-mesure, au plus proche des besoins de vos collaborateurs.</p>
+                </li>
+
+                <li class="card-offer">
+                    <div class="card-offer__container-title">
+                        <img class="card-offer__icon" src="images/emoji-restaurant.svg" alt="Emoji restaurant">
+                        <h3 class="card-offer__title">Hôtels & Restaurants</h3>
+                    </div>
+                    <p class="card-offer__description">Simplifiez-vous la gestion de l’assurance santé pour vos équipes au quotidien et respectez toutes vos obligations CHR.</p>
+                </li>
+
+                <li class="card-offer">
+                    <div class="card-offer__container-title">
+                        <img class="card-offer__icon" src="images/emoji-painter.svg" alt="Emoji indépendants">
+                        <h3 class="card-offer__title">Indépendants</h3>
+                    </div>
+                    <p class="card-offer__description">Oubliez la paperasse et profitez d’une couverture santé complète pour un reste à charge minimal.</p>
+                </li>
+
+            </ul>
+        </section>
+        <!-- End : Second section -->
+
+    </main>
+
+</body>
+
 </html>
