@@ -13,7 +13,7 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 - Utiliser un éditeur de texte, celui avec lequel vous êtes le plus à l'aise (VS Code, Sublime Text, Atom, etc...)  
 - Avoir un navigateur récent pour visualiser le rendu de notre code (Firefox, Google Chrome, Edge, Safari, Opera)  
 
-## Planning
+## Planning - HTML & CSS
 
 | Numéro | Date       | Heure     | Type      | Titre                                                        | Replay                                                |
 |--------|------------|-----------|-----------|--------------------------------------------------------------|-------------------------------------------------------|
@@ -30,6 +30,15 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 | 10     | 29/03/2022 | 10h - 11h | Projet    | Finalisation de notre intégration 🥳                          | https://app.studi.fr/#/dashboard/events/30114/details                                 |
 
 
+## Planning - HTML & CSS (suite niveau 1)
+
+| Numéro | Date       | Heure     | Type   | Titre                 | Replay                |
+|--------|------------|-----------|--------|-----------------------|-----------------------|
+| 01     | 05/04/2022 | 10h - 11h | Projet | Suite recode Alan.com | https://app.studi.fr/#/dashboard/events/31193/replay |
+| 02     | 07/04/2022 | 10h - 11h | Projet | Suite recode Alan.com | pas encore disponible |
+| 03     | 12/04/2022 | 10h - 11h | Projet | Suite recode Alan.com | pas encore disponible |
+| 04     | 14/04/2022 | 10h - 11h | Projet | Suite recode Alan.com | pas encore disponible |
+
 ## Ressources
 
 - [🚦 Valider mon code](https://validator.w3.org/)  
@@ -44,3 +53,4 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 - [🗂 Google fonts](https://fonts.google.com/)
 - [📖 BEM : Convention de nommage](https://www.alticreation.com/bem-pour-le-css/)
 - [🛠 Courbes de bézier personnalisés](https://cubic-bezier.com/)
+- [🛠 Boxe shadow generator](https://www.cssmatic.com/box-shadow)
