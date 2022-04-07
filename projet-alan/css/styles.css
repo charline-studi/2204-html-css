@@ -7,6 +7,7 @@ Variables
 :root {
     --color-blue: #2e94fa;
     --color-green: #86e8b5;
+    --color-orange: #ff7045;
 }
 
 body {
@@ -72,6 +73,25 @@ Flux
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/*
+*
+Texts
+*
+*/
+
+.t-title {
+    font-size: 40px;
+}
+
+.t-title strong {
+    color: var(--color-green)
+}
+
+.t-link {
+    color: var(--color-blue)
 }
 
 
@@ -202,13 +222,8 @@ Offers
 }
 
 .offers__title {
-    font-size: 40px;
     width: 50%;
     margin-bottom: 25px;
-}
-
-.offers__title strong {
-    color: var(--color-green)
 }
 
 .offers__introduction {
@@ -223,10 +238,6 @@ Offers
 
 .offers__introduction span {
     font-size: 25px;
-}
-
-.offers__introduction a {
-    color: var(--color-blue)
 }
 
 .offers__list {
@@ -266,3 +277,51 @@ Offers
 
 
 /* End : Card-offer */
+
+
+/*
+*
+Services
+*
+*/
+
+.services__title {
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.bloc-service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.bloc-service:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.bloc-service:nth-child(even) .bloc-service__container-texts {
+    padding-left: 2.5%;
+}
+
+.bloc-service:nth-child(odd) .bloc-service__container-texts {
+    padding-right: 5%;
+}
+
+.bloc-service__container-texts,
+.bloc-service__image {
+    width: 50%;
+}
+
+.bloc-service__title {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.bloc-service__title span {
+    color: var(--color-orange);
+}
+
+.bloc-service__description {
+    margin-bottom: 15px;
+}
