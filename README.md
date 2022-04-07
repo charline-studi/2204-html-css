@@ -35,7 +35,7 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 | Numéro | Date       | Heure     | Type   | Titre                 | Replay                |
 |--------|------------|-----------|--------|-----------------------|-----------------------|
 | 01     | 05/04/2022 | 10h - 11h | Projet | Suite recode Alan.com | https://app.studi.fr/#/dashboard/events/31193/replay |
-| 02     | 07/04/2022 | 10h - 11h | Projet | Suite recode Alan.com | pas encore disponible |
+| 02     | 07/04/2022 | 10h - 11h | Projet | Suite recode Alan.com | https://app.studi.fr/#/dashboard/events/31194/replay |
 | 03     | 12/04/2022 | 10h - 11h | Projet | Suite recode Alan.com | pas encore disponible |
 | 04     | 14/04/2022 | 10h - 11h | Projet | Suite recode Alan.com | pas encore disponible |
 
