@@ -91,7 +91,8 @@ Texts
 }
 
 .t-link {
-    color: var(--color-blue)
+    color: var(--color-blue);
+    font-weight: 600;
 }
 
 
@@ -324,4 +325,82 @@ Services
 
 .bloc-service__description {
     margin-bottom: 15px;
+}
+
+
+/*
+*
+Testimonies
+*
+*/
+
+.testimonies__title {
+    margin-bottom: 50px;
+}
+
+.testimonies__container {
+    position: relative;
+}
+
+.testimonies__video {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 50px);
+    object-fit: cover;
+    z-index: -1;
+    bottom: 0;
+}
+
+.testimonies__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+/* BLOCK : Card User */
+
+.card-user {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 52px 5px rgba(0, 0, 0, 0.16);
+}
+
+.card-user__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-user__avatar {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top center;
+    border: solid 5px var(--color-green)
+}
+
+.card-user__informations {
+    margin-left: 10px;
+}
+
+.card-user__name {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.card-user__job {
+    margin-bottom: 5px;
+}
+
+.card-user__key-points {
+    color: grey
+}
+
+.card-user__quote {
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
