@@ -75,6 +75,28 @@ Flux
     margin-right: auto;
 }
 
+@media screen and (max-width: 1300px) {
+    .flux {
+        max-width: 1000px
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .flux {
+        max-width: 100%;
+        margin-left: 50px;
+        margin-right: 50px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .flux {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
 
 /*
 *
@@ -148,7 +170,7 @@ Cover
     margin-bottom: 20px;
 }
 
-.cover__marmot {
+.cover__mascot {
     width: 75%;
     height: auto;
     margin-left: auto;
@@ -187,12 +209,42 @@ Cover
     height: 85%;
 }
 
-
-/* 800px = tablette portrait */
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
     .cover__flux {
         flex-direction: column;
+    }
+    .cover__container-texts {
+        width: 100%;
+        padding-right: 30%;
+    }
+    .cover__mascot {
+        display: none
+    }
+    .cover__container-images {
+        height: 450px;
+        width: 550px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cover__container-images,
+    .cover__video {
+        display: none
+    }
+    .cover {
+        background-color: white
+    }
+    .cover__mascot {
+        display: block;
+        max-height: 150px;
+        object-fit: contain;
+    }
+    .cover__container-texts {
+        padding-right: 0
+    }
+    .cover__title {
+        font-size: 40px
     }
 }
 
@@ -200,14 +252,8 @@ Cover
 /* 450px = mobile */
 
 @media screen and (max-width: 450px) {
-    .cover {
-        background-color: white;
-    }
-    .cover__video {
-        display: none;
-    }
-    .cover__container-images {
-        display: none;
+    .cover__title {
+        font-size: 25px
     }
 }
 
@@ -246,6 +292,21 @@ Offers
     justify-content: space-between;
 }
 
+@media screen and (max-width: 1100px) {
+    .offers__title {
+        width: 70%;
+    }
+    .offers__list {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .offers__title {
+        width: 100%;
+    }
+}
+
 
 /* Start : Card-offer */
 
@@ -276,6 +337,19 @@ Offers
     padding: 20px 10px 10px 10px;
 }
 
+@media screen and (max-width: 1100px) {
+    .card-offer {
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .card-offer {
+        width: 100%;
+    }
+}
+
 
 /* End : Card-offer */
 
@@ -289,6 +363,12 @@ Services
 .services__title {
     width: 75%;
     margin-bottom: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .services__title {
+        width: 100%
+    }
 }
 
 .bloc-service {
@@ -325,6 +405,17 @@ Services
 
 .bloc-service__description {
     margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1100px) {
+    .bloc-service,
+    .bloc-service:nth-child(even) {
+        flex-direction: column;
+    }
+    .bloc-service__container-texts,
+    .bloc-service__image {
+        width: 100%;
+    }
 }
 
 
